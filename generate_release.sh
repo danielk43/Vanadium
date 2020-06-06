@@ -6,8 +6,7 @@ KEYSTORE=$PWD/vanadium.keystore
 APKSIGNER=$PWD/third_party/android_sdk/public/build-tools/29.0.2/apksigner
 BUNDLETOOL=$PWD/build/android/gyp/bundletool.py
 
-read -p "Enter keystore passphrase: " -s keystore_pass
-echo
+keystore_pass=
 
 cd out/Default/apks
 
