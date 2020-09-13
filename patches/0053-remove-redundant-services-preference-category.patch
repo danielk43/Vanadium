@@ -1,4 +1,4 @@
-From a4bd5f6b957908f1351fe79730f1b3ee12e798e0 Mon Sep 17 00:00:00 2001
+From 10328639e664c1c6713a09933680257f71a55d1f Mon Sep 17 00:00:00 2001
 From: Daniel Micay <danielmicay@gmail.com>
 Date: Sat, 3 Aug 2019 00:34:43 -0400
 Subject: [PATCH 53/59] remove redundant services preference category
@@ -34,7 +34,7 @@ index c4a82cd49635..c092d646547d 100644
 +    <!--</PreferenceCategory>-->
  </PreferenceScreen>
 diff --git a/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/SyncAndServicesSettings.java b/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/SyncAndServicesSettings.java
-index 61d9db935464..78fb3528eb20 100644
+index 6b30f793b214..15030495cacb 100644
 --- a/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/SyncAndServicesSettings.java
 +++ b/chrome/android/java/src/org/chromium/chrome/browser/sync/settings/SyncAndServicesSettings.java
 @@ -100,7 +100,7 @@ public class SyncAndServicesSettings extends PreferenceFragmentCompat
@@ -113,10 +113,10 @@ index 61d9db935464..78fb3528eb20 100644
          }
  
 diff --git a/chrome/browser/ui/android/strings/android_chrome_strings.grd b/chrome/browser/ui/android/strings/android_chrome_strings.grd
-index 23882740e70f..54349d689730 100644
+index b511b201417a..5117eef7702c 100644
 --- a/chrome/browser/ui/android/strings/android_chrome_strings.grd
 +++ b/chrome/browser/ui/android/strings/android_chrome_strings.grd
-@@ -309,9 +309,9 @@ CHAR-LIMIT guidelines:
+@@ -307,9 +307,9 @@ CHAR-LIMIT guidelines:
        <message name="IDS_MANAGE_SYNC_TITLE" desc="Title for the preference row that opens the screen that allows configuring separate data types. Displayed in 'Sync and Google services' screen.">
          Manage sync
        </message>
