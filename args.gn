@@ -3,8 +3,8 @@ target_os = "android"
 target_cpu = "arm64"
 
 android_channel = "stable"
-android_default_version_name = "86.0.4240.114"
-android_default_version_code = "424011400"
+android_default_version_name = "86.0.4240.123"
+android_default_version_code = "424012300"
 
 is_component_build = false
 is_debug = false
@@ -26,7 +26,7 @@ enable_remoting = false
 # this breaks the build since 83.0.4103.60 - last tested with 84.0.4147.89
 enable_reporting = true
 
-trichrome_certdigest = "c6adb8b83c6d4c17d292afde56fd488a51d316ff8f2c11c5410223bff8a7dbb3"
+trichrome_certdigest = "e24ebc52c385775f0554febfbc756c329ada1128cb0df13a7d65dd3e9036f72d"
 
 # migrating browser package name is desired but is difficult without losing user data
 chrome_public_manifest_package = "org.chromium.chrome"
