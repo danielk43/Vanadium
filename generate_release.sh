@@ -7,8 +7,10 @@ APKSIGNER=$PWD/third_party/android_sdk/public/build-tools/30.0.1/apksigner
 BUNDLETOOL=$PWD/build/android/gyp/bundletool.py
 AAPT2=$PWD/third_party/android_build_tools/aapt2/aapt2
 
-read -p "Enter keystore passphrase: " -s keystore_pass
-echo
+# read -p "Enter keystore passphrase: " -s keystore_pass
+# echo
+
+keystore_pass=$KEYSTORE_PASS
 
 cd out/Default/apks
 
