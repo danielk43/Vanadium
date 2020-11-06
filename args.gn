@@ -3,8 +3,8 @@ target_os = "android"
 target_cpu = "arm64"
 
 android_channel = "stable"
-android_default_version_name = "86.0.4240.123"
-android_default_version_code = "424012300"
+android_default_version_name = "86.0.4240.188"
+android_default_version_code = "424018800"
 
 is_component_build = false
 is_debug = false
@@ -29,6 +29,9 @@ enable_reporting = true
 trichrome_certdigest = "e24ebc52c385775f0554febfbc756c329ada1128cb0df13a7d65dd3e9036f72d"
 
 # migrating browser package name is desired but is difficult without losing user data
+#
+# the original-package feature is supposed to provide migration, but it isn't
+# complete enough to handle this for Chromium
 chrome_public_manifest_package = "org.chromium.chrome"
 #chrome_public_manifest_package = "org.grapheneos.vanadium"
 system_webview_package_name = "org.grapheneos.vanadium.webview"
