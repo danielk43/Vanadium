@@ -3,8 +3,8 @@ target_os = "android"
 target_cpu = "arm64"
 
 android_channel = "stable"
-android_default_version_name = "87.0.4280.120"
-android_default_version_code = "428012000"
+android_default_version_name = "87.0.4280.130"
+android_default_version_code = "428013000"
 
 is_component_build = false
 is_debug = false
@@ -33,6 +33,6 @@ trichrome_certdigest = "e24ebc52c385775f0554febfbc756c329ada1128cb0df13a7d65dd3e
 # the original-package feature is supposed to provide migration, but it isn't
 # complete enough to handle this for Chromium
 chrome_public_manifest_package = "org.chromium.chrome"
-#chrome_public_manifest_package = "org.grapheneos.vanadium"
-system_webview_package_name = "org.grapheneos.vanadium.webview"
-trichrome_library_package = "org.grapheneos.vanadium.trichromelibrary"
+#chrome_public_manifest_package = "app.vanadium.browser"
+system_webview_package_name = "app.vanadium.webview"
+trichrome_library_package = "app.vanadium.trichromelibrary"
