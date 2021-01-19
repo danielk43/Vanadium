@@ -1,0 +1,74 @@
+From c75fb9130929cb4d36d267323810845b6a5cc57a Mon Sep 17 00:00:00 2001
+From: Daniel Micay <danielmicay@gmail.com>
+Date: Fri, 2 Aug 2019 23:28:06 -0400
+Subject: [PATCH 53/74] rename Sync and Google services -> Services
+
+---
+ chrome/app/os_settings_search_tag_strings.grdp         |  2 +-
+ chrome/app/shared_settings_strings.grdp                |  2 +-
+ .../ui/android/strings/android_chrome_strings.grd      | 10 +++++-----
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/chrome/app/os_settings_search_tag_strings.grdp b/chrome/app/os_settings_search_tag_strings.grdp
+index 886a46f53c5c..a0f8a0acba4c 100644
+--- a/chrome/app/os_settings_search_tag_strings.grdp
++++ b/chrome/app/os_settings_search_tag_strings.grdp
+@@ -367,7 +367,7 @@
+     Family Link
+   </message>
+   <message name="IDS_OS_SETTINGS_TAG_SYNC_AND_GOOGLE_SERVICES" desc="Text for search result item which, when clicked, navigates the user to settings for Sync (syncs data between multiple Chromebooks) and Google Services.">
+-    Sync and Google services
++    Services
+   </message>
+   <message name="IDS_OS_SETTINGS_TAG_SYNC_ENCRYPTION_OPTIONS" desc="Text for search result item which, when clicked, navigates the user to sync settings, with an option to choose whether synced data is encrypted with the user's Google account password or with a custom password chosen by the user. Alternate phrase for: 'Sync encryption password'">
+     Sync encryption options
+diff --git a/chrome/app/shared_settings_strings.grdp b/chrome/app/shared_settings_strings.grdp
+index 810da3f34fe9..9a231d00becf 100644
+--- a/chrome/app/shared_settings_strings.grdp
++++ b/chrome/app/shared_settings_strings.grdp
+@@ -298,7 +298,7 @@
+     Review your synced data
+   </message>
+   <message name="IDS_SETTINGS_SYNC_SYNC_AND_NON_PERSONALIZED_SERVICES" desc="The name of the settings page and the label of the button that takes the user to manage their sync and non-personalized services settings.">
+-    Sync and Google services
++    Services
+   </message>
+   <message name="IDS_SETTINGS_PASSPHRASE_CONFIRMATION_PLACEHOLDER" desc="Placeholder for the confirm-passphrase field.">
+     Confirm passphrase
+diff --git a/chrome/browser/ui/android/strings/android_chrome_strings.grd b/chrome/browser/ui/android/strings/android_chrome_strings.grd
+index b6d126c4619c..5a2ad0c1097b 100644
+--- a/chrome/browser/ui/android/strings/android_chrome_strings.grd
++++ b/chrome/browser/ui/android/strings/android_chrome_strings.grd
+@@ -366,13 +366,13 @@ CHAR-LIMIT guidelines:
+       <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Vanadium's features and performance' preference.">
+         Automatically sends usage statistics and crash reports to Google
+       </message>
+-      <message name="IDS_CANCEL_SYNC_DIALOG_TITLE" desc="The title of a dialog that is shown when users tries closing 'Sync and Google services' preferences without confirming the changes.">
++      <message name="IDS_CANCEL_SYNC_DIALOG_TITLE" desc="The title of a dialog that is shown when users tries closing 'Services' preferences without confirming the changes.">
+         Cancel sync?
+       </message>
+-      <message name="IDS_CANCEL_SYNC_DIALOG_MESSAGE" desc="The text of a dialog that is shown when users tries closing 'Sync and Google services' preferences without confirming the changes.">
++      <message name="IDS_CANCEL_SYNC_DIALOG_MESSAGE" desc="The text of a dialog that is shown when users tries closing 'Services' preferences without confirming the changes.">
+         You can turn on sync anytime in settings
+       </message>
+-      <message name="IDS_CANCEL_SYNC_BUTTON" desc="The text of a button in a dialog that is shown when users tries closing 'Sync and Google services' preferences without confirming the changes.">
++      <message name="IDS_CANCEL_SYNC_BUTTON" desc="The text of a button in a dialog that is shown when users tries closing 'Services' preferences without confirming the changes.">
+         Cancel sync
+       </message>
+ 
+@@ -3758,10 +3758,10 @@ Data from your Incognito session will only be cleared from Vanadium when you <ph
+       <message name="IDS_IPH_DATA_SAVER_DETAIL_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text to open lite mode.">
+         See how much data you've saved from the More Options button
+       </message>
+-      <message name="IDS_IPH_IDENTITY_DISC_TEXT" desc="The in-product-help text prompting the user that tapping identity disc will navigate to 'Sync and Google services' settings page.">
++      <message name="IDS_IPH_IDENTITY_DISC_TEXT" desc="The in-product-help text prompting the user that tapping identity disc will navigate to 'Services' settings page.">
+         Manage your account
+       </message>
+-      <message name="IDS_IPH_IDENTITY_DISC_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text prompting the user that tapping identity disc will navigate to 'Sync and Google services' settings page.">
++      <message name="IDS_IPH_IDENTITY_DISC_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text prompting the user that tapping identity disc will navigate to 'Services' settings page.">
+         To manage your Google account, tap the "Manage account" button
+       </message>
+       <message name="IDS_IPH_NTP_WITHOUT_FEED_TEXT" desc="The in-product-help message to open the new tab page with personalized top sites.">
+-- 
+2.30.0
+
