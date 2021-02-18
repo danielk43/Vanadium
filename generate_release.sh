@@ -7,8 +7,10 @@ set -o errexit -o nounset -o pipefail
 KEYSTORE=$PWD/../vanadium.keystore
 APKSIGNER=$PWD/third_party/android_sdk/public/build-tools/30.0.1/apksigner
 
-read -p "Enter keystore passphrase: " -s keystore_pass
-echo
+# read -p "Enter keystore passphrase: " -s keystore_pass
+# echo
+
+keystore_pass=$KEYSTORE_PASS
 
 cd "$1/Default/apks"
 
